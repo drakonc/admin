@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 
 import { LoginModule } from './layouts/login/login.module';
 import { HomeModule } from './layouts/home/home.module';
-import { SidebarComponent } from './layouts/components/sidebar/sidebar.component';
+import { FooterComponent } from './layouts/components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, SidebarComponent],
+  declarations: [AppComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, LoginModule, HomeModule],
   providers: [],
   bootstrap: [AppComponent]

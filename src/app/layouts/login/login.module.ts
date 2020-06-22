@@ -4,7 +4,6 @@ import { AppRoutingModule } from '../../app-routing.module';
 import { LoginComponent } from './login.component';
 
 
-
 @NgModule({
   declarations: [LoginComponent],
   imports: [CommonModule, AppRoutingModule]
